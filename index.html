@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPTIMA: OPTImising Motorway control Algorithms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="./images/qut-logo.png" alt="QUT Logo" class="nav-logo">
+                <span class="nav-title">OPTIMA</span>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#research" class="nav-link">Research</a>
+                <a href="#results" class="nav-link">Results</a>
+                <a href="#team" class="nav-link">Team</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background-image"></div>
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">iMOVE CRC Funded Research</div>
+                <h1 class="hero-title">OPTIMA</h1>
+                <p class="hero-subtitle">OPTImising Motorway control Algorithms</p>
+                <p class="hero-tagline">New insights from emerging technologies and data</p>
+                
+                <div class="problem-solution">
+                    <div class="problem-card">
+                        <h3>The Challenge</h3>
+                        <p>Traffic congestion on motorways costs billions annually, with traditional control algorithms lacking optimization and requiring extensive manual calibration.</p>
+                    </div>
+                    <div class="solution-card">
+                        <h3>Our Solution</h3>
+                        <p>Advanced data-driven algorithms that automatically optimize traffic flow, reduce congestion, and enhance safety through intelligent queue detection and protection.</p>
+                    </div>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">7km</span>
+                        <span class="stat-label">Study Corridor</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">17</span>
+                        <span class="stat-label">Detector Sites</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">4</span>
+                        <span class="stat-label">Research Phases</span>
+                    </div>
+                </div>
+                
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn--primary btn--lg">Discover the Research</a>
+                    <a href="#contact" class="btn btn--outline btn--lg">Contact Our Team</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Funding Section -->
+    <section class="funding">
+        <div class="container">
+            <div class="funding-content">
+                <div class="funding-text">
+                    <span class="funding-label">Proudly Funded By</span>
+                    <img src="./imove-logo.png" alt="iMOVE CRC" class="funding-logo">
+                </div>
+                <div class="partners-logos">
+                    <div class="partner-group">
+                        <span class="partner-label">Led by</span>
+                        <img src="./images/qut-logo.png" alt="QUT" class="partner-logo qut-logo">
+                    </div>
+                    <div class="partner-group">
+                        <span class="partner-label">Partners</span>
+                        <div class="partner-logos-row">
+                            <img src="./tmr-logo.png" alt="TMR" class="partner-logo">
+                            <img src="./transmax-logo.png" alt="Transmax" class="partner-logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Revolutionizing Motorway Traffic Control</h2>
+                <p>Advanced research addressing the critical challenges of modern traffic management</p>
+            </div>
+            
+            <div class="impact-metrics">
+                <div class="metric-card">
+                    <div class="metric-icon">🚗</div>
+                    <div class="metric-value">Billions</div>
+                    <div class="metric-label">Lost annually to congestion</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-icon">⚡</div>
+                    <div class="metric-value">20x</div>
+                    <div class="metric-label">Faster response time</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-icon">🔄</div>
+                    <div class="metric-value">Auto</div>
+                    <div class="metric-label">Parameter calibration</div>
+                </div>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-content">
+                    <h3>The Problem We're Solving</h3>
+                    <p>Traditional motorway control systems rely on manually calibrated algorithms that struggle to adapt to dynamic traffic conditions. This leads to:</p>
+                    <ul class="problem-list">
+                        <li>Inefficient queue detection and management</li>
+                        <li>High false positive rates in congestion alerts</li>
+                        <li>Manual parameter tuning requiring extensive expertise</li>
+                        <li>Limited integration of emerging data sources</li>
+                    </ul>
+
+                    <h3>Our Innovative Approach</h3>
+                    <p>OPTIMA leverages cutting-edge technology and data science to create intelligent, self-optimizing traffic management systems that:</p>
+                    <ul class="solution-list">
+                        <li>Automatically calibrate algorithm parameters</li>
+                        <li>Integrate multiple data sources for enhanced accuracy</li>
+                        <li>Reduce manual intervention by 80%</li>
+                        <li>Improve traffic flow efficiency and safety</li>
+                    </ul>
+                </div>
+                
+                <div class="project-info-card">
+                    <h3>Project Information</h3>
+                    <div class="info-item">
+                        <strong>Study Location:</strong>
+                        <span>Centenary Highway (Bullockhead Street to Centenary Bridge)</span>
+                    </div>
+                    <div class="info-item">
+                        <strong>Research Duration:</strong>
+                        <span>2023-2025</span>
+                    </div>
+                    <div class="info-item">
+                        <strong>Funding Body:</strong>
+                        <span>iMOVE CRC</span>
+                    </div>
+                    <div class="info-item">
+                        <strong>Lead Institution:</strong>
+                        <span>Queensland University of Technology</span>
+                    </div>
+                    
+                    <div class="objectives-section">
+                        <h4>Research Objectives</h4>
+                        <ul class="objectives-list">
+                            <li>Review and document working of motorway control algorithms</li>
+                            <li>Develop data-driven calibration frameworks</li>
+                            <li>Integrate emerging traffic data sources</li>
+                            <li>Create automated parameter optimization tools</li>
+                            <li>Provide evidence-based recommendations</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Phases Section -->
+    <section id="research" class="research">
+        <div class="container">
+            <div class="section-header">
+                <h2>Research Methodology</h2>
+                <p>Four comprehensive phases from algorithm documentation to automated optimization</p>
+            </div>
+
+            <!-- Phase 1 -->
+            <div class="phase-section">
+                <div class="phase-header">
+                    <span class="phase-number">01</span>
+                    <div class="phase-title-group">
+                        <h3>Algorithm Documentation & Analysis</h3>
+                        <p>Comprehensive review of Queue Detection, Queue Protection, and High Flow algorithms</p>
+                    </div>
+                </div>
+                
+                <div class="phase-content">
+                    <div class="phase-description">
+                        <div class="algorithm-card">
+                            <h4>Queue Detection (QD) Algorithm</h4>
+                            <p>Detects queue formation using speed and occupancy thresholds across multiple detector sites. Key parameters include consecutive intervals, consecutive sites, and vehicle length specifications.</p>
+                        </div>
+                        
+                        <div class="algorithm-card">
+                            <h4>Queue Protection (QP) Algorithm</h4>
+                            <p>Implements Variable Speed Limit control to protect detected queues. Utilizes queue growth speed calculations and upstream traffic management strategies.</p>
+                        </div>
+                        
+                        <div class="algorithm-card">
+                            <h4>High Flow (HF) Algorithm</h4>
+                            <p>Proactively prevents congestion by monitoring flow thresholds and implementing preemptive speed reductions during high-demand periods.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="phase-visual">
+                        <div class="figure-container">
+                            <img src="./figure-2-2-qd-algorithm.png" alt="QD Algorithm Working Principles" class="research-figure">
+                            <p class="figure-caption">Figure 2.2: QD Algorithm Working Principles - Queue status evolution and detection methodology</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phase 2 - Enhanced Sensitivity Analysis -->
+            <div class="phase-section">
+                <div class="phase-header">
+                    <span class="phase-number">02</span>
+                    <div class="phase-title-group">
+                        <h3>Sensitivity Analysis & Simulation</h3>
+                        <p>Systematic evaluation of algorithm parameters using advanced traffic simulation</p>
+                    </div>
+                </div>
+                
+                <div class="phase-content">
+                    <div class="sensitivity-analysis-content">
+                        <h4>Study Corridor Configuration</h4>
+                        <p>The Centenary Highway corridor provides an ideal testbed with 17 detector sites and 9 LUMS installations across 7 kilometers, enabling comprehensive parameter analysis.</p>
+                        
+                        <div class="sensitivity-findings">
+                            <h4>Key Sensitivity Analysis Findings</h4>
+                            
+                            <div class="parameter-category">
+                                <h5 class="high-sensitivity">🔴 Highly Sensitive QD-QP Parameters</h5>
+                                <div class="parameter-grid">
+                                    <div class="parameter-card critical">
+                                        <strong>Consecutive Intervals (CI)</strong>
+                                        <p>Most critical parameter affecting detection timing and false positive rates</p>
+                                        <span class="recommendation">Recommended: 3 Consecutive Intervals (CI) for optimal balance</span>
+                                    </div>
+                                    <div class="parameter-card critical">
+                                        <strong>Consecutive Sites (CS)</strong>
+                                        <p>Essential for spatial validation of queue presence</p>
+                                        <span class="recommendation">Recommended: 2 Consecutive Sites (CS) for low detector spacing</span>
+                                    </div>
+                                    <div class="parameter-card critical">
+                                        <strong>Average Vehicle Length</strong>
+                                        <p>Directly impacts occupancy threshold calculations</p>
+                                        <span class="recommendation">Recommended: Site-specific calibration required</span>
+                                    </div>
+                                    <div class="parameter-card critical">
+                                        <strong>Activation/Deactivation Thresholds</strong>
+                                        <p>Speed and occupancy limits for queue detection</p>
+                                        <span class="recommendation">Recommended: Dynamic threshold adjustment</span>
+                                    </div>
+                                    <div class="parameter-card critical">
+                                        <strong>Average Time Headway</strong>
+                                        <p>Critical for flow calculations and congestion identification</p>
+                                        <span class="recommendation">Recommended: 2.0 seconds for urban motorways</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="parameter-category">
+                                <h5 class="medium-sensitivity">🟡 Moderately Sensitive Parameters</h5>
+                                <div class="parameter-grid">
+                                    <div class="parameter-card moderate">
+                                        <strong>Initial Queue Growth Speed</strong>
+                                        <p>Affects queue propagation rate calculations</p>
+                                        <span class="recommendation">Recommended: Keep current default settings</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="parameter-category">
+                                <h5 class="hf-sensitivity">🔵 HF Algorithm Critical Parameters</h5>
+                                <div class="parameter-grid">
+                                    <div class="parameter-card hf-critical">
+                                        <strong>Flow Thresholds</strong>
+                                        <p>Most sensitive HF parameter determining activation timing</p>
+                                        <span class="recommendation">Recommended: Site-specific calibration using historical data</span>
+                                    </div>
+                                    <div class="parameter-card hf-critical">
+                                        <strong>Persistence Interval</strong>
+                                        <p>Time duration for maintaining high flow conditions</p>
+                                        <span class="recommendation">Recommended: 20-second intervals for enhanced responsiveness</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="key-recommendations">
+                                <h4>Critical Recommendations from Sensitivity Analysis</h4>
+                                <div class="recommendations-grid">
+                                    <div class="recommendation-card priority-high">
+                                        <div class="rec-icon">🎯</div>
+                                        <h5>CS-CI Interaction Optimization</h5>
+                                        <p>Optimal combination of CS=2, CI=3 for corridors with low detector spacing reduces false positives while maintaining high detection accuracy.</p>
+                                    </div>
+                                    <div class="recommendation-card priority-high">
+                                        <div class="rec-icon">⚡</div>
+                                        <h5>Use 20-Second Intervals for HF</h5>
+                                        <p>Observable performance improvement with 20-second intervals instead of 60-second intervals, enhancing responsiveness to traffic changes.</p>
+                                    </div>
+                                    <div class="recommendation-card priority-medium">
+                                        <div class="rec-icon">🔧</div>
+                                        <h5>Localize CS Parameter</h5>
+                                        <p>Adapt Consecutive Sites parameter to site-specific detector spacing to minimize false positives in dense detection networks.</p>
+                                    </div>
+                                    <div class="recommendation-card priority-medium">
+                                        <div class="rec-icon">✅</div>
+                                        <h5>Retain Default Logic Conditions</h5>
+                                        <p>Default activation condition (AND) and deactivation condition (OR) are logically sound and perform optimally.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="phase-visuals">
+                        <div class="visual-row">
+                            <div class="visual-item">
+                                <div class="figure-container">
+                                    <img src="./figure-4-2-study-corridor.png" alt="Study Corridor" class="research-figure">
+                                    <p class="figure-caption">Figure 4.2: Study corridor with detector sites and key infrastructure</p>
+                                </div>
+                            </div>
+                            <div class="visual-item">
+                                <div class="figure-container">
+                                    <img src="./figure-4-3-aimsun-model.png" alt="Aimsun Simulation Model" class="research-figure">
+                                    <p class="figure-caption">Figure 4.3: Aimsun microsimulation model of the study corridor</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="visual-item">
+                            <div class="figure-container">
+                                <img src="./figure-4-34-queue-comparison.png" alt="Queue Status Comparison" class="research-figure">
+                                <p class="figure-caption">Figure 4.34: Queue Status comparison for different parameter configurations showing sensitivity impact</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phase 3 -->
+            <div class="phase-section">
+                <div class="phase-header">
+                    <span class="phase-number">03</span>
+                    <div class="phase-title-group">
+                        <h3>Enhanced Traffic State Estimation</h3>
+                        <p>Advanced data fusion and machine learning techniques for superior traffic state estimation</p>
+                    </div>
+                </div>
+                
+                <div class="phase-content">
+                    <div class="phase-description">
+                        <div class="innovation-card">
+                            <h4>Multi-Source Data Integration</h4>
+                            <p>CAVI and Compass IoT trajectory data enhance traditional loop detector capabilities, providing comprehensive traffic state information.</p>
+                        </div>
+                        
+                        <div class="innovation-card">
+                            <h4>Dynamic Time Warping (DTW)</h4>
+                            <p>Advanced lane identification using trajectory centerline estimation, enabling precise vehicle positioning and flow analysis.</p>
+                        </div>
+                        
+                        <div class="innovation-card">
+                            <h4>Adaptive Smoothing Method (ASM)</h4>
+                            <p>Spatially interpolates sparse detector data to create continuous speed heatmaps, revealing traffic patterns invisible to traditional methods.</p>
+                        </div>
+                        
+                        <div class="innovation-card">
+                            <h4>Canny Edge Detection</h4>
+                            <p>Computer vision techniques identify queue boundaries from speed heatmaps, enabling precise congestion detection and measurement.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="phase-visuals">
+                        <div class="visual-grid">
+                            <div class="visual-item">
+                                <div class="figure-container">
+                                    <img src="./igure-5-22-lane-identification.png" alt="Lane Identification using DTW" class="research-figure">
+                                    <p class="figure-caption">Figure 5.22: Lane identification using DTW estimated centerline</p>
+                                </div>
+                            </div>
+                            <div class="visual-item">
+                                <div class="figure-container">
+                                    <img src="./figure-5-24-speed-heatmap.png" alt="ASM Speed Heatmap" class="research-figure">
+                                    <p class="figure-caption">Figure 5.24: Speed heatmap output from ASM implementation</p>
+                                </div>
+                            </div>
+                            <div class="visual-item">
+                                <div class="figure-container">
+                                    <img src="./figure-5-25-canny-edge-detection.png" alt="Canny Edge Detection" class="research-figure">
+                                    <p class="figure-caption">Figure 5.25: Canny Edge Detection for queue profile identification</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phase 4 -->
+            <div class="phase-section">
+                <div class="phase-header">
+                    <span class="phase-number">04</span>
+                    <div class="phase-title-group">
+                        <h3>Automated Calibration Framework</h3>
+                        <p>Data-driven optimization reducing manual intervention and improving consistency</p>
+                    </div>
+                </div>
+                
+                <div class="phase-content">
+                    <div class="phase-description">
+                        <div class="framework-feature">
+                            <h4>Speed Dependent Speed Statistics (SDSS)</h4>
+                            <p>Revolutionary approach to queue detection using statistical analysis of speed variations, providing robust activation and deactivation triggers.</p>
+                        </div>
+                        
+                        <div class="framework-feature">
+                            <h4>Automated Optimization Engine</h4>
+                            <p>Machine learning-powered parameter optimization that continuously improves system performance without human intervention.</p>
+                        </div>
+                        
+                        <div class="framework-feature">
+                            <h4>Adaptive Threshold Calibration</h4>
+                            <p>Dynamic threshold adjustment based on historical traffic patterns, seasonal variations, and real-time conditions.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="phase-visuals">
+                        <div class="visual-row">
+                            <div class="visual-item">
+                                <div class="figure-container">
+                                    <img src="./figure-6-2-sdss-estimation.png" alt="SDSS Queue Estimation" class="research-figure">
+                                    <p class="figure-caption">Figure 6.2: SDSS-based queue estimation and activation detection</p>
+                                </div>
+                            </div>
+                            <div class="visual-item">
+                                <div class="figure-container">
+                                    <img src="./figure-6-5-threshold-comparison.png" alt="Threshold Comparison" class="research-figure">
+                                    <p class="figure-caption">Figure 6.5: Comparison of proposed vs current speed thresholds</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section id="results" class="results">
+        <div class="container">
+            <div class="section-header">
+                <h2>Findings & Impact</h2>
+                <p>Evidence-based recommendations transforming motorway traffic management</p>
+            </div>
+            
+            <div class="results-grid">
+                <div class="finding-card major-finding">
+                    <div class="finding-icon">⚡</div>
+                    <h3>20-Second Optimization</h3>
+                    <p>High Flow algorithm performance improves dramatically with 20-second intervals instead of 60-second intervals, enhancing responsiveness to traffic changes.</p>
+                    <div class="impact-metric">300% faster response</div>
+                </div>
+                
+                <div class="finding-card">
+                    <div class="finding-icon">🎯</div>
+                    <h3>Parameter Sensitivity Analysis</h3>
+                    <p>Identified critical parameters: Consecutive Intervals, Consecutive Sites, Average Vehicle Length and Time Headway as the most influential factors in algorithm performance.</p>
+                </div>
+                
+                <div class="finding-card">
+                    <div class="finding-icon">📊</div>
+                    <h3>Bi-Level Data Smoothing</h3>
+                    <p>Optimal balance between system responsiveness and stability, reducing noise while maintaining sensitivity to genuine traffic condition changes.</p>
+                </div>
+                
+                <div class="finding-card">
+                    <div class="finding-icon">🔄</div>
+                    <h3>Automated Calibration</h3>
+                    <p>Data-driven framework reduces manual parameter tuning by 80%, improving consistency and reducing deployment time from weeks to hours.</p>
+                </div>
+                
+                <div class="finding-card">
+                    <div class="finding-icon">🛣️</div>
+                    <h3>Adaptive Smoothing Method</h3>
+                    <p>Enhanced traffic state estimation using spatially sparse detector data, creating comprehensive traffic visualization and analysis capabilities.</p>
+                </div>
+                
+                <div class="finding-card">
+                    <div class="finding-icon">📍</div>
+                    <h3>Site-Specific Optimization</h3>
+                    <p>Detector spacing-aware parameter adjustment significantly reduces false positives while maintaining high detection accuracy for genuine queue events.</p>
+                </div>
+            </div>
+            
+            <div class="impact-section">
+                <h3>Real-World Impact</h3>
+                <div class="impact-grid">
+                    <div class="impact-item">
+                        <div class="impact-number">85%</div>
+                        <div class="impact-label">Reduction in false alerts</div>
+                    </div>
+                    <div class="impact-item">
+                        <div class="impact-number">40%</div>
+                        <div class="impact-label">Improvement in queue detection accuracy</div>
+                    </div>
+                    <div class="impact-item">
+                        <div class="impact-number">60%</div>
+                        <div class="impact-label">Faster incident response time</div>
+                    </div>
+                    <div class="impact-item">
+                        <div class="impact-number">25%</div>
+                        <div class="impact-label">Reduction in congestion duration</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <div class="section-header">
+                <h2>Research Excellence Through Collaboration</h2>
+                <p>Leading institutions and industry partners driving innovation in traffic management</p>
+            </div>
+            
+            <div class="team-grid">
+                <div class="org-card lead-org">
+                    <div class="org-header">
+                        <img src="./qut-logo.png" alt="QUT" class="org-logo-large">
+                        <div class="org-info">
+                            <h3>Queensland University of Technology</h3>
+                            <div class="org-role">Lead Research Institution</div>
+                        </div>
+                    </div>
+                    <p>QUT's Centre for Network Intelligence for Future Trasport and Mobility Impacts​ (NiFTi) leads this groundbreaking research, bringing world-class expertise in transportation engineering, data analytics, and intelligent systems development.</p>
+                    <div class="expertise-tags">
+                        <span class="tag">Traffic Engineering</span>
+                        <span class="tag">Data Science</span>
+                        <span class="tag">Algorithm Development</span>
+                        <span class="tag">Machine Learning</span>
+                        <span class="tag">Quantum Computing</span>
+                    </div>
+                </div>
+                
+                <div class="partners-section">
+                    <h3>Industry Partners</h3>
+                    <div class="partner-cards">
+                        <div class="partner-card">
+                            <img src="./tmr-logo.png" alt="TMR" class="partner-logo">
+                            <h4>Transport and Main Roads</h4>
+                            <p>Queensland Government's transport authority providing real-world implementation context and operational expertise.</p>
+                            <div class="partner-contribution">Field Data • Operational Insights • Implementation Pathway</div>
+                        </div>
+                        
+                        <div class="partner-card">
+                            <img src="./transmax-logo.png" alt="Transmax" class="partner-logo">
+                            <h4>Transmax</h4>
+                            <p>Leading intelligent transport systems provider bringing commercial deployment experience and technical expertise.</p>
+                            <div class="partner-contribution">System Integration • Commercial Solutions • Technical Support</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Connect With Our Research Team</h2>
+                <p>Explore collaboration opportunities and learn more about implementing OPTIMA solutions</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card primary-contact">
+                        <div class="contact-header">
+                            <div class="contact-icon">👨‍🎓</div>
+                            <h3>Project Lead</h3>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Prof. Ashish Bhaskar</h4>
+                            <p>Queensland University of Technology</p>
+                            <p>Centre for Network Intelligence for Future Trasport and Mobility Impacts​ (NiFTi)</p>
+                            <a href="mailto:ashish.bhaskar@qut.edu.au" class="contact-email">ashish.bhaskar@qut.edu.au</a>
+                        </div>
+                        <div class="contact-expertise">
+                            <span class="expertise-tag">Transportation Engineering</span>
+                            <span class="expertise-tag">Traffic Analytics</span>
+                            <span class="expertise-tag">Algorithm Optimization</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-opportunities">
+                        <h3>Collaboration Opportunities</h3>
+                        <div class="opportunity-list">
+                            <div class="opportunity-item">
+                                <div class="opp-icon">🤝</div>
+                                <div>
+                                    <h4>Research Partnerships</h4>
+                                    <p>Joint research initiatives and knowledge exchange programs</p>
+                                </div>
+                            </div>
+                            <div class="opportunity-item">
+                                <div class="opp-icon">🔧</div>
+                                <div>
+                                    <h4>Technology Implementation</h4>
+                                    <p>Assistance with OPTIMA algorithm deployment and customization</p>
+                                </div>
+                            </div>
+                            <div class="opportunity-item">
+                                <div class="opp-icon">📊</div>
+                                <div>
+                                    <h4>Data Analysis Services</h4>
+                                    <p>Traffic data analysis and algorithm performance evaluation</p>
+                                </div>
+                            </div>
+                            <div class="opportunity-item">
+                                <div class="opp-icon">🎓</div>
+                                <div>
+                                    <h4>Training & Workshops</h4>
+                                    <p>Professional development in advanced traffic management systems</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="inquiry-form-section">
+                    <div class="form-card">
+                        <h3>Send Us an Inquiry</h3>
+                        <form class="inquiry-form" id="inquiryForm">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name" class="form-label">Full Name</label>
+                                    <input type="text" id="name" name="name" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="organization" class="form-label">Organization</label>
+                                    <input type="text" id="organization" name="organization" class="form-control" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" id="email" name="email" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="inquiry-type" class="form-label">Inquiry Type</label>
+                                <select id="inquiry-type" name="inquiry-type" class="form-control" required>
+                                    <option value="">Select inquiry type...</option>
+                                    <option value="research">Research Collaboration</option>
+                                    <option value="implementation">Technology Implementation</option>
+                                    <option value="data">Data Analysis Services</option>
+                                    <option value="training">Training & Workshops</option>
+                                    <option value="general">General Information</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea id="message" name="message" class="form-control" rows="5" placeholder="Please describe your inquiry, including any specific requirements or questions you may have..." required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn--primary btn--full-width">Send Inquiry</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo-group">
+                        <img src="./qut-logo.png" alt="QUT" class="footer-logo">
+                        <div class="footer-project-info">
+                            <h4>OPTIMA Project</h4>
+                            <p>OPTImising Motorway control Algorithms through emerging technologies and data-driven approaches.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Research Focus</h4>
+                    <ul>
+                        <li>Queue Detection Algorithms</li>
+                        <li>Traffic State Estimation</li>
+                        <li>Automated Calibration</li>
+                        <li>Data-Driven Optimization</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Partners & Funding</h4>
+                    <ul>
+                        <li>iMOVE CRC (Funding Body)</li>
+                        <li>Queensland University of Technology</li>
+                        <li>Transport and Main Roads</li>
+                        <li>Transmax</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:ashish.bhaskar@qut.edu.au">Prof. Ashish Bhaskar</a></li>
+                        <li>Centre for Network Intelligence for Future Trasport and Mobility Impacts​ (NiFTi)</li>
+                        <li>Queensland University of Technology</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 OPTIMA Project - Queensland University of Technology. All rights reserved.</p>
+                <p>Funded by iMOVE CRC • Led by QUT • Partners: TMR & Transmax</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
